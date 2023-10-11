@@ -1,0 +1,130 @@
+.hero {
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    padding: 1.3em 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    z-index: 99;
+}
+
+.row {
+    display: flex;
+    gap: 2em;
+}
+
+.row a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 2em;
+    font-family: Berkshire Swash;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    filter: brightness(90%);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    flex: 1;
+    padding: 5%;
+    color: white;
+}
+
+.left h1 {
+    font-size: 3.3em;
+}
+
+.left span {
+    color: var(--pink);
+}
+
+.left p {
+    font-size: 1.2em;
+}
+
+.right {
+    align-items: center;
+}
+
+.right img {
+    max-width: 25em;
+}
+
+.button {
+    background-color: var(--darkpurple);
+    color: white;
+    padding: 1em;
+    max-width: fit-content;
+    border-radius: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(90%);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.light {
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+.page .title {
+    font-size: 3em;
+    font-weight: bold;
+    color: inherit;
+}
+
+.page .line {
+    width: 5em;
+    height: .5em;
+    margin: 1.5em;
+    background-color: white;
+}
+
+.light .line {
+    background-color: var(--purple);
+}
+
+.description {
+    max-width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    color: inherit;
+}
+
+#lizard-types img {
+    max-width: 20em;
+}

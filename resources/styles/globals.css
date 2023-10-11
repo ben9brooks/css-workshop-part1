@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:wght@400;700&display=swap');
+
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: white;
+    font-size: 18px;
+}
+
+:root {
+    --purple: #866eae;
+    --white: #f2f3ea;
+    --darkpurple: #4A2C7A;
+    --pink: #FD99DC;
+}
+
+body {
+    background-color: var(--purple);
+}
+
+span {
+    font-size: inherit;
+}
